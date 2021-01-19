@@ -19,6 +19,8 @@ function complete() {
   }
 }
 
+
+
 // Get Quote From API
 async function getQuote() {
   loading();
@@ -44,7 +46,7 @@ async function getQuote() {
     // Stop Loading, Show Quote
     complete();
   } catch (error) {
-    getQuote();
+    // cath error here
   }
 }
 
